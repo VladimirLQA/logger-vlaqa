@@ -1,0 +1,40 @@
+{
+  "name": "logger-vlaqa",
+  "version": "1.0.5",
+  "description": "Simple logger implementation",
+  "main": "./dist/index.js",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.MD"
+  ],
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "console",
+    "automation"
+  ],
+  "author": "VolodymyrLQA",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "devDependencies": {
+    "eslint-prettier-vlaqa": "^1.0.0",
+    "@eslint/js": "^9.25.1",
+    "@stylistic/eslint-plugin-js": "^4.2.0",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.1"
+  }
+}
